@@ -1,0 +1,36 @@
+# Haskell specific
+dist/
+cabal-dev/
+cabal.sandbox.config
+cabal.config
+*.o
+*.hi
+*.chi
+*.chs.h
+*.dyn_o
+*.dyn_hi
+*.prof
+*.aux
+*.hp
+*.eventlog
+*.so
+*.a
+*.dylib
+*.dll
+.hpc/
+.stack-work/
+.cabal-sandbox/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Stack specific
+stack-work/
+
+# Compiled Haskell files
+*.swp
+*.swo
+*.swn
+
+.DS_Store
